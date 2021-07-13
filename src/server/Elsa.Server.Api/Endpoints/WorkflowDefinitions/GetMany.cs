@@ -20,7 +20,7 @@ namespace Elsa.Server.Api.Endpoints.WorkflowDefinitions
 {
     [ApiController]
     [ApiVersion("1")]
-    [Route("v{apiVersion:apiVersion}/workflow-definitions")]
+    [Route("v{apiVersion:apiVersion}/workflow-definitions-byids")]
     [Produces("application/json")]
     public class GetMany : Controller
     {
